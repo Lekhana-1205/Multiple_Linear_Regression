@@ -1,0 +1,40 @@
+.stApp{
+    background : linear-gradient(
+        135deg,
+        #d0a9cb 0%,
+        #b0a3ed 50%,
+        #897b9f 100%
+    );
+    min-height:100vh;
+    font-family:'Segoe UI',sans-serif;
+}
+.card{
+    background-color: #663869;
+    padding: 25px;
+    border-radius:16px;
+    box-shadow: 0 8px 20px rgba(118, 130, 157, 0.08);
+    margin-bottom: 25px;
+}
+h1,h2,h3{
+    color: #c9d4ee;
+}
+div[data-testid="metric-container"]{
+    background-color: #3b92e9;
+    border-radius:16px;
+    padding:15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05)
+}
+.prediction-box{
+    background: linear-gradient(
+        135deg,
+        #3c8da1,
+        #3f8883
+    );
+    padding: 22px;
+    border-radius:14px;
+    text-align: center;
+    font-size:22px;
+    font-weight: bold;
+    color: #14532d;
+    margin-top:15px;
+}
